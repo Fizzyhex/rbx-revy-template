@@ -1,0 +1,28 @@
+{
+    "name": "pesde-project-build",
+    "emitLegacyScripts": false,
+    "tree": {
+        "$className": "DataModel",
+        "Workspace": {
+            "$className": "Workspace"
+        },
+        "ReplicatedStorage": {
+            "$className": "ReplicatedStorage",
+            "shared": {
+                "$path": "dist/shared"
+            },
+            "client": {
+                "$path": "dist/client"
+            },
+            "packages": {
+                "$path": "roblox_packages"
+            }
+        },
+        "ServerScriptService": {
+            "$className": "ServerScriptService",
+            "server": {
+                "$path": "dist/server"
+            }
+        }
+    }
+}

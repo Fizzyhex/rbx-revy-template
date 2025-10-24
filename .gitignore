@@ -1,0 +1,21 @@
+# Project place file
+# /project_name.rbxlx
+
+# Roblox Studio lock files
+/*.rbxlx.lock
+/*.rbxl.lock
+
+# Wally
+Packages
+wally.lock
+
+# Rojo
+sourcemap.json
+
+# Darklua output
+/dist
+
+# Pesde
+/luau_packages
+/lune_packages
+/roblox_packages
