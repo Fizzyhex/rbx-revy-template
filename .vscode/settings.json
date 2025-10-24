@@ -1,5 +1,5 @@
 {
-    "luau-lsp.sourcemap.rojoProjectFile": "dev.project.json",
+    "luau-lsp.sourcemap.rojoProjectFile": "build.project.json",
     "luau-lsp.sourcemap.autogenerate": false,
     "fusionautocomplete.fusionVersion": "0.3",
     "stylua.targetReleaseVersion": "latest",
