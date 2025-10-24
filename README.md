@@ -11,6 +11,7 @@ This template includes:
 # Prerequisites
 
 - [Rojo](https://rojo.space)
+    - Make sure you [update your plugin](https://create.roblox.com/store/asset/13916111004/Rojo)?
 - [Rokit](https://github.com/rojo-rbx/rokit)
     - Authenticated using `rokit login`
 - [Pesde](https://docs.pesde.dev/installation/)
