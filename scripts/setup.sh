@@ -19,7 +19,7 @@ if [ ! -f "rokit.toml" ]; then
     rokit init
 fi
 
-rokit add rojo-rbx/rojo
+rokit add rojo
 rokit add seaofvoices/darklua
 rokit install
 
