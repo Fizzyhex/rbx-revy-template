@@ -31,5 +31,4 @@ if [ ! -f "pesde.toml" ]; then
     pesde add fizzyhex/revy
 fi
 
-
-printf "${GREEN}Ready to start?${NC} Run `./scripts/dev.sh` to serve your project with Rojo!\n"
+printf "${GREEN}Ready to start?${NC} Run \`./scripts/dev.sh\` to serve your project with Rojo!\n"
