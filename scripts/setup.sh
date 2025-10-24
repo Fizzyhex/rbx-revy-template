@@ -21,6 +21,7 @@ fi
 
 rokit add rojo-rbx/rojo
 rokit add seaofvoices/darklua
+rokit install
 
 if [ ! -f "pesde.toml" ]; then
     pesde init
@@ -32,4 +33,4 @@ pesde add fizzyhex/revy
 GREEN = "\033[0;32m"
 NC = "\033[0m" # No Color
 
-echo -e "${GREEN}Ready to start?${NC} Run `./scripts/dev.sh` to serve your project with Rojo!"
+printf "${GREEN}Ready to start?${NC} Run `./scripts/dev.sh` to serve your project with Rojo!"
