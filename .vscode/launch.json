@@ -1,0 +1,16 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Rojo",
+      "type": "node",               // can be anything valid (node, cppdbg, etc.)
+      "request": "launch",
+      "program": "${workspaceFolder}/dummy.js", // ignored, we only want to run the task
+      "preLaunchTask": "rojo",
+      "presentation": {
+        "reveal": "always",
+        "panel": "dedicated"
+      }
+    }
+  ]
+}
