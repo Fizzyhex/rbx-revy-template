@@ -1,4 +1,4 @@
-std = "selene_definitions"
+std = "selene_definitions+roblox"
 
 [config]
 # Allow for `_G.__DEV__` (etc) with packages like React-lua
