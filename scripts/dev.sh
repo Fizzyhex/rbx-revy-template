@@ -6,7 +6,7 @@ set -e
 
 # If Packages aren't installed, install them.
 if [ ! -d "Packages" ]; then
-    sh scripts/install-packages.sh
+    sh scripts/packages.sh
 fi
 
 rojo serve build.project.json \
