@@ -1,0 +1,26 @@
+{
+	"Revy System": {
+		"prefix": "revysystem",
+		"body": [
+			"plugin:add_system(\"${1:update}\", revy.system(function(world)",
+			"\t$0",
+			"end))"
+		],
+		"description": "System boilerplate, intended for plugin bodies."
+	},
+	"Revy Plugin": {
+		"prefix": "revyplugin",
+		"body": [
+			"local revy = require(\"@packages/revy\")",
+			"",
+			"return revy.plugin(\"${1:game.}\", function(plugin)",
+			"\tlocal app = plugin.app",
+			"",
+			"\t$0",
+			"",
+			"\treturn nil",
+			"end)"
+		],
+		"description": "Plugin boilerplate."
+	}
+}
